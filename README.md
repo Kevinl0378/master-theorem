@@ -66,10 +66,10 @@ The purpose of this lab is to both get you familiar with using these non-github 
         Modify the README file to include:
     
         1. The recurrence relation that describes the function's runtime:
-            $$T(n) = T(n/3) + 1
+            $$T(n) = T(n/3) + 1$$
 
         1. The solution to the recurrence you wrote above as provided by the master theorem:
-            $$T(n) = \Theta(log(n))
+            $$T(n) = \Theta(log(n))$$
 
         (Feel free to check your answers with me before moving on.)
     
@@ -117,10 +117,10 @@ The purpose of this lab is to both get you familiar with using these non-github 
     | T(n) = T(n/2) + 1    | $\Theta(         log(n)    )$ | runtime of the correct binary search      |
     | T(n) = T(n/3) + 1    | $\Theta(        log(n)     )$ | runtime of "trinary search"               |
     | T(n) = 2T(n/2) + 1   | $\Theta(         n      )$ | runtime for [finding the median of an unsorted list](https://en.wikipedia.org/wiki/Quickselect) |
-    | T(n) = 2T(n/2) + n   | $\Theta(       nlog(n)          )$ | runtime of merge sort                     |
-    | T(n) = 3T(n/3) + n   | $\Theta(       nlog(n)      )$ | runtime of a trinary merge sort           |
-    | T(n) = T(n/2) + n^2  | $\Theta(       n<sup>2</sup>      )$ |                                           |
-    | T(n) = 2T(n/2) + n^2 | $\Theta(     n<sup>2</sup>     )$ |                                           |
+    | T(n) = 2T(n/2) + n   | $\Theta(       n log(n)          )$ | runtime of merge sort                     |
+    | T(n) = 3T(n/3) + n   | $\Theta(       n log(n)      )$ | runtime of a trinary merge sort           |
+    | T(n) = T(n/2) + n^2  | $\Theta(n<sup>2</sup>)$ |                                           |
+    | T(n) = 2T(n/2) + n^2 | $\Theta(    n<sup>2</sup>     )$ |                                           |
     | T(n) = 3T(n/2) + n^2 | $\Theta(       n<sup>2</sup>   )$ |                                           |
     | T(n) = 3T(n/2) + n   | $\Theta(        n<sup>log<sub>2</sub>3</sup>          )$ | runtime of [Karatsuba's integer multiplication algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm); HINT: Case 1 |
     | T(n) = 7T(n/2) + n^2 | $\Theta(     n<sup>log<sub>2</sub>7</sup>            )$ | runtime of [Strassen's matrix multiplication algorithm](https://en.wikipedia.org/wiki/Strassen_algorithm) |
