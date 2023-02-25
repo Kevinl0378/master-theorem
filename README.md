@@ -119,7 +119,7 @@ The purpose of this lab is to both get you familiar with using these non-github 
     | T(n) = 2T(n/2) + 1   | $\Theta(         n      )$ | runtime for [finding the median of an unsorted list](https://en.wikipedia.org/wiki/Quickselect) |
     | T(n) = 2T(n/2) + n   | $\Theta(       n log(n)          )$ | runtime of merge sort                     |
     | T(n) = 3T(n/3) + n   | $\Theta(       n log(n)      )$ | runtime of a trinary merge sort           |
-    | T(n) = T(n/2) + n^2  | $\Theta(n<sup>2</sup>)$ |                                           |
+    | T(n) = T(n/2) + n^2  | $$\Theta( n<sup>2</sup> )$$ |                                           |
     | T(n) = 2T(n/2) + n^2 | $\Theta(    n<sup>2</sup>     )$ |                                           |
     | T(n) = 3T(n/2) + n^2 | $\Theta(       n<sup>2</sup>   )$ |                                           |
     | T(n) = 3T(n/2) + n   | $\Theta(        n<sup>log<sub>2</sub>3</sup>          )$ | runtime of [Karatsuba's integer multiplication algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm); HINT: Case 1 |
